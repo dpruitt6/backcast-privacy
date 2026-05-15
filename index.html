@@ -36,7 +36,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="subtitle"><strong>BackCast — Fishing Log &amp; Companion App</strong><br>Last Updated: May 5, 2026</p>
+        <p class="subtitle"><strong>BackCast — Fishing Log &amp; Companion App</strong><br>Last Updated: May 15, 2026</p>
 
         <h2>Introduction</h2>
         <p>BackCast ("we," "our," or "the App") is a fishing log and companion application. This Privacy Policy explains how we collect, use, store, and share your information when you use the App. By using BackCast, you agree to the practices described in this policy.</p>
@@ -69,9 +69,18 @@
         <p>With your permission, we collect:</p>
         <ul>
             <li>GPS coordinates when you log a catch or save a fishing spot</li>
+            <li>GPS coordinates embedded in photos you choose to attach to a catch</li>
             <li>Custom boundary areas you define for fishing spots</li>
         </ul>
         <p>Location data is collected only when you actively use location-dependent features and only with your explicit consent through the iOS location permission prompt. We request "When In Use" location access only — we do not track your location in the background.</p>
+
+        <h3>Photo Metadata</h3>
+        <p>When you attach a photo to a catch, we read embedded metadata from the photo file you provided, including:</p>
+        <ul>
+            <li>Capture date and time (used to pre-fill the catch date)</li>
+            <li>GPS coordinates (used to store the catch's location, fill the spot name, and retrieve historical weather for that location and time)</li>
+        </ul>
+        <p>This metadata is read from the photo file itself; we do not access your photo library beyond the specific photo you select.</p>
 
         <h3>Weather Data</h3>
         <p>When you log a catch or view weather for a saved spot, we request current and forecast weather data from the Open-Meteo API using the relevant location's coordinates. Weather conditions at the time of a catch (temperature, humidity, wind speed, wind direction, barometric pressure) are stored with your catch record.</p>
@@ -175,7 +184,7 @@
         <p><strong>Email:</strong> <a href="mailto:d.james.pruitt@gmail.com">d.james.pruitt@gmail.com</a></p>
 
         <div class="footer">
-            <p>This privacy policy is effective as of May 5, 2026.</p>
+            <p>This privacy policy is effective as of May 15, 2026.</p>
         </div>
     </div>
 </body>
